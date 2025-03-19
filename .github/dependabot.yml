@@ -1,4 +1,4 @@
-version: 2
+Mversion: 2
 updates:
   - package-ecosystem: 'github-actions'
     directory: '/'
@@ -11,8 +11,9 @@ updates:
   - package-ecosystem: 'github-actions'
     directory: '/.github/actions/setup/directories'
     schedule:
-      interval: 'daily'
+      interval: 'daily'    
   - package-ecosystem: 'cargo'
     directory: '/yjit'
     schedule:
       interval: 'daily'
+[![CodeQL](https://github.com/Milanhe92/AI-alati/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/Milanhe92/AI-alati/actions/workflows/codeql-analysis.yml)
